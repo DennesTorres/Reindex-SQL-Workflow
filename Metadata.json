@@ -1,0 +1,20 @@
+{
+    "Author": "Dennes Torres",
+    "ContentSize": 8968,
+    "ContentUrl": "https://raw.githubusercontent.com/dennestorres/ReIndex-AzureSQL-Tables-When-Needed/master/Update-SQLIndexRunbook.ps1",
+    "DownloadCount": 13844,
+    "Id": "ReIndexes-tables-in-an-Azure-73a2a8ea",
+    "IsFederated": true,
+    "IsWorkflow": true,
+    "Popularity": 10,
+    "RaterCount": 10,
+    "Rating": 4.5,
+    "ReleaseDate": "2020-05-27T00:00:00",
+    "RunbookKind": 6,
+    "RunbookKindString": "PowerShell Workflow",
+    "Summary": "This runbook re-indexes all of the tables in a given database if the fragmentation is above a certain percentage.",
+    "Title": "Re-Indexes tables in an Azure database if they need",
+    "UpdatedDate": "2020-05-27T00:00:00",
+    "Url": "https://github.com/DennesTorres/ReIndex-AzureSQL-Tables-When-Needed",
+    "UserTags": "Monitoring, Windows Azure SQL Database Administration"
+}
