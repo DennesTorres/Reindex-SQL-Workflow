@@ -49,6 +49,8 @@
     AUTHOR: System Center Automation Team
     LASTEDIT: Oct 8th, 2014 
 #>
+workflow Update-SQLIndexRunbook
+{
     param(
         [parameter(Mandatory=$True)]
         [string] $SqlServer,
@@ -128,8 +130,10 @@
             {
                 # Table is fragmented. Return this table for indexing by finding its name
 
-                $result=$FragTable.Item("schemaName")  + "." + $FragTable.Item("TableName")
-                $result                
+                $FragTable.Item("schemaName")  + "." + $FragTable.Item("TableName")
+                    
+                
+
             }
         }
 
@@ -217,3 +221,4 @@
     }
 
     Write-Verbose "Finished Indexing"
+}
